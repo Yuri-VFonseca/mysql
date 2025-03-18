@@ -8,7 +8,7 @@ def get_db_connection():
         return mysql.connector.connect(
             host = "localhost", 
             user = "root",
-            password = "sua_senha", 
+            password = "sua_senha", # coloque sua senha pessoal
             database = "ze_code"
         )
     except mysql.connector.Error as e:
